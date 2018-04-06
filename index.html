@@ -1,775 +1,272 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-    <!-- Required meta tags -->
+<html lang="en">
+
+  <head>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come after these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Fill in the following meta tags -->
-    <meta name="keywords" content="keyword1, keyword2, keyword3"/>
-    <meta name="description" content="Description">
-    <meta name="author" content="Author">
-
-    <!-- Change the site title -->
     <title>PrivateCay</title>
 
-    <!-- You can regenerate the favicons as you wish using http://realfavicongenerator.net/ -->
-<!--
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
--->
-    <link rel="manifest" href="favicon/manifest.json">
-<!--    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">-->
-    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700%7CRoboto+Condensed:200,300,300i,400,700%7CRoboto+Mono%7CBalthazar%7CGreat+Vibes" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
 
-    <!-- Pretty Photo -->
-    <link rel="stylesheet" href="css/prettyPhoto.css"/>
+  </head>
 
-    <!-- Flickity -->
-    <link rel="stylesheet" href="css/flickity.css"/>
+  <body id="page-top">
 
-    <!-- animate.css -->
-    <link rel="stylesheet" href="css/animate.css"/>
-
-    <!-- custom.css - the styling for this template -->
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- Modernizr -->
-    <script src="js/modernizr-custom.js"></script>
-
-</head>
-
-
-<body>
-
-<!-- status spinner showing while loading the page -->
-<div id="preloader">
-    <div id="preloader-image"></div>
-</div>
-
-<!-- HEADER -->
-<header>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
-        <div class="container">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">PrivateCay<!--<img src="img/logo.png" height="50" style="margin-top: -10px;" alt="bestAG"/>--></a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-0 ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#hero">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://support.privatecay.com">Support</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://wallet.privatecay.com">Wallet</a>
-                    </li>
-                </ul>
-            </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">X</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-</header>
-<!-- HEADER END -->
 
-<div id="content-wrap">
-
-    <!-- HERO AREA -->
-    <div class="jumbotron" id="#hero" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
-        <div id="bg-video-wrap">
-            <video id="bg-video" playsinline autoplay muted loop>
-            </video>
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Your Favorite Source of Free Bootstrap Themes</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          </div>
         </div>
-        <div class="container">
-            <h1>Welcome to PrivateCay</h1>
-            <div class="typed-wrap">
-                <span class="typed"></span>
-            </div>
-            <div id="intro-text">
-                <h2 class="hidden-xs-down">Welcome to our page</h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper gravida odio quis luctus. Nullam massa odio, venenatis id porttitor rutrum, dignissim at dolor.
-            </div>
-            <a href="#about" class="btn btn-primary portfolio-link scroll-link">Who Are We?</a>
-        </div>
-    </div>
-    <!-- HERO AREA END -->
+      </div>
+    </header>
 
-    <!-- bouncing arrow -->
-    <div class="arrow-wrap">
-        <a href="index.html#about" class="arrow down-bounce scroll-link fa fa-arrow-down"></a>
-    </div>
-
-    <!-- ABOUT -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-12">
-                    <div>
-                        <h2>ABOUT</h2>
-                    </div>
-                    <div id="about-text">
-                        <p>
-                            It's no coincidence we are known as Private Cay (pronounced private key). If you are familiar
-                            with cryptocurrencies like Bitcoin, Litecoin, Ethereum and Bitshares, you know that your
-                            private key is your only means of accessing your funds. Since there are no third parties (banks)
-                            to recover your funds, understanding how to secure your private keys is crucial
-                            to your long term success with crypto.
-                        </p>
-                        <p>
-                            Our logo, the X, marks your personal treasure. It's empowering and daunting all at once. Cryptocurrencies
-                            are bringing back peer to peer interactions. When you hand someone cash for goods or services, there
-                            is no middleman. It's you and the other party. Sadly, it has become almost impossible to conduct
-                            a peer to peer transaction with larger sums of money. Fees and ineffiencies in the banking system 
-                            have created a broken and invasive system.
-                        </p>
-                        <p>
-                            The primary purpose of this site is to provide easy to understand tutorals to help new crypto investors
-                            safely get involved. The support link at the top has well thought out articles to help you begin buying
-                            Bitcoin, Litecoin, Ethereum and Bitcoin Cash. We also have articles to help you understand the blogging
-                            platform called Steemit.com and decentralized exchange called Bitshares. We hope you enjoy your experience
-                            with PrivateCay and hope we can assist you as you learn about this new world.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="photo-wrap">
-                        <!-- <img src="img/photo.jpg" class="photo img-fluid" alt=""/> -->
-                        <div class="photo-overlay">
-                            <div class="photo-text social">
-                                <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                                <a href="index.html#"><i class="fa fa-google"></i></a>
-                                <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                <a href="index.html#"><i class="fa fa-tumblr"></i></a>
-                                <a href="index.html#"><i class="fa fa-instagram"></i></a>
-                                <a href="index.html#"><i class="fa fa-youtube"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- ABOUT END -->
 
-    <!-- SERVICES -->
-    <!-- <section id="services">
-        <div class="section-header">
-            <div>
-                <h2>Services we offer</h2>
-            </div>
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">At Your Service</h2>
+            <hr class="my-4">
+          </div>
         </div>
-        <div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="box">
-                            <div class="circle"><i class="fa fa-desktop"></i></div>
-                            <h3>Web Design</h3>
-                            <p>Praesent magna neque, dapibus sit amet eros sed, aliquam interdum felis. Nulla rhoncus
-                                ipsum dui.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="box">
-                            <div class="circle"><i class="fa fa-cogs"></i></div>
-                            <h3>Coding</h3>
-                            <p>Praesent magna neque, dapibus sit amet eros sed, aliquam interdum felis. Nulla rhoncus
-                                ipsum dui.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="box">
-                            <div class="circle"><i class="fa fa-code"></i></div>
-                            <h3>Clean Code</h3>
-                            <p>Praesent magna neque, dapibus sit amet eros sed, aliquam interdum felis. Nulla rhoncus
-                                ipsum dui.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="box">
-                            <div class="circle"><i class="fa fa-camera"></i></div>
-                            <h3>Photography</h3>
-                            <p>Praesent magna neque, dapibus sit amet eros sed, aliquam interdum felis. Nulla rhoncus
-                                ipsum dui.</p>
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Sturdy Templates</h3>
+              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
             </div>
-        </div>
-    </section> -->
-    <!-- SERVICES END -->
-
-    <!-- HIRE ME -->
-<!--
-    <section id="hireme" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
-        <div class="section-header container">
-            <div class="col-12">
-                <h2 class="animation" data-animation="fadeInLeft">Do you have an interesting project?</h2>
-                <h4 class="animation" data-animation="fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                <a data-animation="fadeInRight" class="btn btn-primary scroll-link animation" href="index.html#contact">Hire
-                    us!</a>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Ready to Ship</h3>
+              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Up to Date</h3>
+              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Made with Love</h3>
+              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
--->
-    <!-- HIRE ME END -->
 
-    <!-- PORTFOLIO -->
-<!--
-    <section id="portfolio">
-        <div class="section-header">
-            <div>
-                <h2>Our Works</h2>
-            </div>
+    <section class="p-0" id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="container-fluid">
-             <div id="filters-group">
-                <a class="filter" data-filter="*">show all</a>
-                <a class="filter" data-filter=".plugins">plugins</a>
-                <a class="filter" data-filter=".design">design</a>
-                <a class="filter" data-filter=".photography">photography</a>
-            </div>
-            <div id="portfolio-items" class="row">
-                <div class="item col-md-6 col-lg-4 photography" data-category="photography">
-                    <a title="Custom description with a <a href='#'>URL</a>."
-                       data-rel="prettyPhoto"
-                       href="img/portfolio/portfolio1.jpg">
-                        <div class="item-wrap">
-                            <img class="img-fluid" src="img/portfolio/portfolio1.jpg" alt="Photography">
-                        </div>
-                        <span class="magnifier"></span>
-                    </a>
-                </div>
-                <div class="item col-md-6 col-lg-4 plugins design" data-category="plugins, design">
-                    <a title="Custom description with a <a href='#'>URL</a>."
-                       data-rel="prettyPhoto"
-                       href="img/portfolio/portfolio2.jpg">
-                        <div class="item-wrap">
-                            <img class="img-fluid" src="img/portfolio/portfolio2.jpg" alt="WordPress Plugin">
-                        </div>
-                        <span class="magnifier"></span>
-                    </a>
-                </div>
-                <div class="item col-md-6 col-lg-4 plugins photography" data-category="plugins, photography">
-                    <a title="Custom description with a <a href='#'>URL</a>."
-                       data-rel="prettyPhoto"
-                       href="img/portfolio/portfolio3.jpg">
-                        <div class="item-wrap">
-                            <img class="img-fluid" src="img/portfolio/portfolio3.jpg" alt="Photography">
-                        </div>
-                        <span class="magnifier"></span>
-                    </a>
-                </div>
-                <div class="item col-md-6 col-lg-4 col-12 plugins" data-category="plugins">
-                    <a title="Custom description with a <a href='#'>URL</a>."
-                       data-rel="prettyPhoto"
-                       href="img/portfolio/portfolio4.jpg">
-                        <div class="item-wrap">
-                            <img class="img-fluid" src="img/portfolio/portfolio4.jpg" alt="jQuery Plugin">
-                        </div>
-                        <span class="magnifier"></span>
-                    </a>
-                </div>
-                <div class="item col-md-6 col-lg-4 col-12 design" data-category="design">
-                    <a title="Custom description with a <a href='#'>URL</a>."
-                       data-rel="prettyPhoto"
-                       href="img/portfolio/portfolio5.jpg">
-                        <div class="item-wrap">
-                            <img class="img-fluid" src="img/portfolio/portfolio5.jpg" alt="Design">
-                        </div>
-                        <span class="magnifier"></span>
-                    </a>
-                </div>
-                <div class="item col-md-6 col-lg-4 col-12 plugins design" data-category="plugins, design">
-                    <a title="Custom description with a <a href='#'>URL</a>."
-                       data-rel="prettyPhoto"
-                       href="img/portfolio/portfolio6.jpg">
-                        <div class="item-wrap">
-                            <img class="img-fluid" src="img/portfolio/portfolio6.jpg" alt="Design">
-                        </div>
-                        <span class="magnifier"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
--->
-    <!-- PORTFOLIO END -->
 
-    <!-- PRICING -->
-    <!-- <section id="pricing">
-        <div class="section-header">
-            <div>
-                <h2>Pricing</h2>
-            </div>
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          </div>
         </div>
-
-        <div class="container pricing-container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricingTable">
-                        <div class="pricingTable-header">
-                            <h3 class="title">Standard</h3>
-                            <span class="currency">$</span>
-                            <span class="price-value">10</span>
-                            <span class="month">per month</span>
-                        </div>
-                        <div class="pricing-content">
-                            <ul>
-                                <li><span>50GB</span>Disk Space</li>
-                                <li><span>50</span>Email Accounts</li>
-                                <li><span>50GB</span>Monthly Bandwidth</li>
-                                <li><span>10</span>Subdomains</li>
-                                <li><span>15</span>Domains</li>
-                            </ul>
-                            <a class="btn btn-primary" href="index.html#">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricingTable">
-                        <div class="pricingTable-header">
-                            <h3 class="title">Business</h3>
-                            <span class="currency">$</span>
-                            <span class="price-value">20</span>
-                            <span class="month">per month</span>
-                        </div>
-                        <div class="pricing-content">
-                            <ul>
-                                <li><span>60GB</span>Disk Space</li>
-                                <li><span>60</span>Email Accounts</li>
-                                <li><span>60GB</span>Monthly Bandwidth</li>
-                                <li><span>15</span>Subdomains</li>
-                                <li><span>20</span>Domains</li>
-                            </ul>
-                            <a class="btn btn-primary" href="index.html#">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricingTable">
-                        <div class="pricingTable-header">
-                            <h3 class="title">Premium</h3>
-                            <span class="currency">$</span>
-                            <span class="price-value">30</span>
-                            <span class="month">per month</span>
-                        </div>
-                        <div class="pricing-content">
-                            <ul>
-                                <li><span>70GB</span>Disk Space</li>
-                                <li><span>70</span>Email Accounts</li>
-                                <li><span>70GB</span>Monthly Bandwidth</li>
-                                <li><span>20</span>Subdomains</li>
-                                <li><span>25</span>Domains</li>
-                            </ul>
-                            <a class="btn btn-primary" href="index.html#">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="pricingTable">
-                        <div class="pricingTable-header">
-                            <h3 class="title">Extra</h3>
-                            <span class="currency">$</span>
-                            <span class="price-value">40</span>
-                            <span class="month">per month</span>
-                        </div>
-                        <div class="pricing-content">
-                            <ul>
-                                <li><span>80GB</span>Disk Space</li>
-                                <li><span>80</span>Email Accounts</li>
-                                <li><span>80GB</span>Monthly Bandwidth</li>
-                                <li><span>25</span>Subdomains</li>
-                                <li><span>30</span>Domains</li>
-                            </ul>
-                            <a class="btn btn-primary" href="index.html#">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p>123-456-6789</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+            </p>
+          </div>
         </div>
-    </section> -->
-    <!-- PRICING END -->
+      </div>
+    </section>
 
-    <!--  OUR TEAM -->
-    <!-- <section id="team">
-        <div class="section-header">
-            <div>
-                <h2>Our Team</h2>
-            </div>
-        </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <div class="team-img">
-                            <img src="img/team/team1.jpg" alt="team member" class="img-fluid">
-                        </div>
-                        <div class="team-hover">
-                            <div class="desk">
-                                <h4>Welcome!</h4>
-                                <p>I am manager and CEO.</p>
-                            </div>
-                            <div class="s-link">
-                                <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                                <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                <a href="index.html#"><i class="fa fa-google-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-title">
-                        <h5>Martin Blacksmith</h5>
-                        <span>founder &amp; ceo</span>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <div class="team-img">
-                            <img src="img/team/team2.jpg" alt="team member" class="img-fluid">
-                        </div>
-                        <div class="team-hover">
-                            <div class="desk">
-                                <h4>Hello World</h4>
-                                <p>I love to introduce myself as a hardcore Programmer.</p>
-                            </div>
-                            <div class="s-link">
-                                <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                                <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                <a href="index.html#"><i class="fa fa-google-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-title">
-                        <h5>Elias Roth</h5>
-                        <span>Programmer</span>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <div class="team-img">
-                            <img src="img/team/team3.jpg" alt="team member" class="img-fluid">
-                        </div>
-                        <div class="team-hover">
-                            <div class="desk">
-                                <h4>I love to design</h4>
-                                <p>I love to introduce myself as a Designer.</p>
-                            </div>
-                            <div class="s-link">
-                                <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                                <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                <a href="index.html#"><i class="fa fa-google-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-title">
-                        <h5>Danielle Khan</h5>
-                        <span>Designer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!--  OUR TEAM END -->
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- TESTIMONIALS -->
-    <!-- <section id="testimonials" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="30">
-        <div class="section-header">
-            <div>
-                <h2>What our clients say</h2>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div id="testimonials-content" class="col-12">
-                    <div class="gallery-cell">
-                        <div class="testimonial">
-                            <img class="testimonial-avatar"
-                                 src="img/testimonials/client1.jpg" alt="">
-                            <q class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                                mauris
-                                ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla.</q>
-                            <span class="testimonial-author">Joe Smith, CEO</span>
-                        </div>
-                    </div>
-                    <div class="gallery-cell">
-                        <div class="testimonial">
-                            <img class="testimonial-avatar"
-                                 src="img/testimonials/client2.jpg" alt="">
-                            <q class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                                mauris
-                                ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla.</q>
-                            <span class="testimonial-author">Lisa Jones, Designer</span>
-                        </div>
-                    </div>
-                    <div class="gallery-cell">
-                        <div class="testimonial">
-                            <img class="testimonial-avatar"
-                                 src="img/testimonials/client3.jpg" alt="">
-                            <q class="testimonial-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                                mauris
-                                ex, gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla.</q>
-                            <span class="testimonial-author">Ryan Waltz, Developer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- TESTIMONIALS END -->
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
 
+  </body>
 
-    <!-- CLIENTS -->
-    <!-- <div id="clients" class="section">
-        <div class="container">
-            <div class="item">
-                <img src="img/clients/1.png" class="img-fluid" alt="" />
-            </div>
-            <div class="item">
-                <img src="img/clients/2.png" class="img-fluid" alt="" />
-            </div>
-            <div class="item">
-                <img src="img/clients/3.png" class="img-fluid" alt="" />
-            </div>
-            <div class="item">
-                <img src="img/clients/4.png" class="img-fluid" alt="" />
-            </div>
-            <div class="item">
-                <img src="img/clients/5.png" class="img-fluid" alt="" />
-            </div>
-            <div class="item">
-                <img src="img/clients/6.png" class="img-fluid" alt="" />
-            </div>
-            <div class="item">
-                <img src="img/clients/7.png" class="img-fluid" alt="" />
-            </div>
-        </div>
-    </div> -->
-    <!-- CLIENTS END -->
-
-    <!-- BLOG / NEWS -->
-    <!-- <section id="blog">
-        <div class="section-header">
-            <div>
-                <h2>Watch our Blog</h2>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-4 item-wrap animation" data-animation="fadeInLeft">
-                    <div class="item">
-                        <img src="img/blog/blog1.jpg" class="img-fluid" alt=""/>
-                        <div class="inner">
-                            <h4>Donec hendrerit ultricies orci eget pretium</h4>
-                            <p>
-                                Vivamus a mattis augue. Suspendisse aliquam justo in nibh hendrerit lobortis. Proin euismod nisl sem, ac rhoncus ex lacinia nec.
-                                Aliquam bibendum vel dui eu tincidunt...
-                            </p>
-                            <a href="blog-post.html" class="btn btn-secondary">Read more...</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4 item-wrap animation" data-animation="fadeInUp">
-                    <div class="item">
-                        <img src="img/blog/blog2.jpg" class="img-fluid" alt=""/>
-                        <div class="inner">
-                            <h4>Donec hendrerit ultricies orci eget pretium</h4>
-                            <p>
-                                Vivamus a mattis augue. Suspendisse aliquam justo in nibh hendrerit lobortis. Proin euismod nisl sem, ac rhoncus ex lacinia nec.
-                                Aliquam bibendum vel dui eu tincidunt...
-                            </p>
-                            <a href="blog-post.html" class="btn btn-secondary">Read more...</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4 item-wrap animation" data-animation="fadeInRight">
-                    <div class="item">
-                        <img src="img/blog/blog3.jpg" class="img-fluid" alt=""/>
-                        <div class="inner">
-                            <h4>Donec hendrerit ultricies orci eget pretium</h4>
-                            <p>
-                                Vivamus a mattis augue. Suspendisse aliquam justo in nibh hendrerit lobortis. Proin euismod nisl sem, ac rhoncus ex lacinia nec.
-                                Aliquam bibendum vel dui eu tincidunt...
-                            </p>
-                            <a href="blog-post.html" class="btn btn-secondary">Read more...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <a href="blog.html" class="btn btn-primary">See more Blogs</a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- BLOG / NEWS END -->
-
-    <!-- SUBSCRIBE FORM  -->
-    <!-- <section id="subscribe">
-        <div class="section-header">
-            <div>
-                <h2>Subscribe to our Newsletter</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <form id="subscribe-form" action="api/subscribe.php" method="post" autocomplete="off">
-                        <div class="input-group">
-                            <input type="email" name="subscribe_email" id="subscribe_email" class="form-control" placeholder="Enter Your Email Address">
-                            <span class="input-group-btn">
-                                <button class="btn btn-primary" type="submit"><i class="fa fa-paper-plane"></i></button>
-                            </span>
-                        </div>
-                    </form>
-                </div>
-                <div id="subscribe-response" class="col-md-8 offset-md-2"></div>
-            </div>
-        </div>
-    </section> -->
-    <!-- SUBSCRIBE FORM END  -->
-
-    <!-- CONTACT FORM  -->
-    <!-- <section id="contact">
-        <div class="section-header">
-            <div>
-                <h2>Contact Us</h2>
-                <p>Please fill the form below. We will contact you as soon as possible.</p>
-            </div>
-        </div>
-        <div class="container">
-            <div id="form-messages"></div>
-            <div class="form-wrap">
-                <form id="contact-form" action="api/contact.php" method="post" autocomplete="off">
-                    <div class="row">
-                        <div class="col-12 col-sm-6">
-                            <input class="form-control" type="text" placeholder="Your Name" name="name" id="name"
-                                   required/>
-                            <input class="form-control" type="text" placeholder="E-mail" name="email" id="email"
-                                   required/>
-                            <input class="form-control" type="text" placeholder="Subject" name="subject" id="subject"
-                                   required/>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <textarea class="form-control" placeholder="Your Message" rows="7" name="message"
-                                      id="message" required></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <button class="btn btn-primary" type="submit">SEND MESSAGE</button>
-                        </div>
-                    </div>
-                </form>
-                <div id="ajaxLoad"></div>
-            </div>
-        </div>
-    </section> -->
-    <!-- CONTACT FORM  END -->
-</div>
-
-<div id="footer-wrap">
-
-    <!-- CONTACT INFO  -->
-    <!-- <div id="contact2">
-        <div class="container">
-            <div class="row">
-                <div class="col-12" id="googleMap"></div>
-            </div>
-            <div class="row withMap">
-                <div class="col-12 col-md-8">
-                    <p>Donec quis tincidunt nisl. Mauris ac urna libero. Aliquam cursus, augue eu efficitur dignissim,
-                        risus mauris porta diam, in bibendum lectus enim vitae risus. Maecenas sit amet pretium quam, in
-                        tristique ante. Sed consequat rutrum metus, sit amet interdum risus consectetur.
-                        Sed est arcu, malesuada at ipsum nec, hendrerit cursus enim. Ut in lorem finibus,
-                        vestibulum nulla a, pellentesque mauris.
-                    </p>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div>
-                        <i class="fa fa-map-marker"> </i>223 John Adam Street, London, UK.
-                    </div>
-                    <div>
-                        <i class="fa fa-phone"> </i>800 123-456-789
-                    </div>
-                    <div>
-                        <i class="fa fa-envelope"> </i>your@email.com
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- CONTACT INFO END -->
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-6">
-                    <p>Copyright &copy; 2018 PrivateCay</p>
-                </div>
-                <div class="col-12 col-sm-6 social">
-                    <p class="pull-right">
-                        <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                        <a href="index.html#"><i class="fa fa-google"></i></a>
-                        <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                        <a href="index.html#"><i class="fa fa-tumblr"></i></a>
-                        <a href="index.html#"><i class="fa fa-instagram"></i></a>
-                        <a href="index.html#"><i class="fa fa-youtube"></i></a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- FOOTER END -->
-
-</div>
-
-<!-- jQuery first, then Tether, then Bootstrap JS. -->
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/jquery-migrate-3.0.0.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/flickity.pkgd.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/jquery.debouncedresize.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/typed.min.js"></script>
-<script src="js/particles.min.js"></script>
-<script src="js/config.js"></script>
-<script src="js/custom.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAH-JwGdr8XJfUBjJQtCsr8uNeRzvniSrI&callback=myMap"></script>
-
-<script>
-  window.intercomSettings = {
-    app_id: "r0tu5rzl"
-  };
-</script>
-<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/r0tu5rzl';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
-    
-</body>
 </html>
