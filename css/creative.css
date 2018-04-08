@@ -97,7 +97,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #212529;
+  color: #817d78;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -151,7 +151,7 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #212529;
+    color: #817D78;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #817d78;
